@@ -1,0 +1,113 @@
+body {
+	background-image:url(images/fond.jpg);
+	font-family: courier, serif;
+ 	font-size:15px;
+ 	letter-spacing:0.3px;
+ 	text-align: center;
+}
+
+h1{
+	color:rgb(73,157,170);
+	font-family: 'Amatic SC', cursive;
+	font-size:30px;
+	letter-spacing:3px;
+	text-align: center;
+}
+
+h2{
+	color:#a0dbd5;
+	font-family: 'Imbue', serif;
+	font-size:25px;
+	letter-spacing:2px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+a{
+	text-decoration: none;
+	font-size: 18px;
+	padding:8px;
+	color:rgb(112,172,164);
+	background-color: rgb(23,100,110);
+	transition: color 0.7s ease;
+	border-radius: 	10px;
+	border-color: rgb(112,172,164);
+	border-style: solid;
+}
+
+a:hover {
+	color: rgb(23,100,110);
+	background-color: rgb(112,172,164);
+	border-color: rgb(23,100,110);
+}
+
+img{
+	border-radius: 70px
+}
+
+.img-circle{
+	border-radius: 50%
+}
+
+ul{
+	text-align: left;
+}
+
+.container{
+	padding:30px;
+	width:1000px;
+	margin:20px auto;
+}
+
+@media (max-width: 960px) {
+	.container {
+		width: 700px; 
+	}
+}
+
+@media (max-width: 720px) {
+	.container {
+		width: 500px;
+	}
+}
+
+@media (max-width: 540px) {
+	.container {
+		width: 300px;
+	}
+}
+
+.card-white {
+	background-color: white;
+	padding: 30px;
+	border-radius: 4px;
+	margin: 20px auto;
+	box-shadow: 5px 5px 5px rgba(0,0,0,0.3);
+}
+
+.card-blue {
+	background-color :rgb(73,157,170);
+	padding: 30px;
+	border-radius: 4px;
+	margin: 20px auto;
+	box-shadow: 5px 5px 5px rgba(0,0,0,0.3);
+}
+
+.card-blue a{
+	background-color: rgb(73,157,170);
+	font-size :40px;
+	color:white;
+	border-style:none;
+}
+
+.card-blue a:hover{
+	font-size :50px;
+	color: rgb(23,100,110);
+	background-color: none;
+}
+
+#instalink{
+	margin: 35px;
+}
+
+
